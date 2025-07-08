@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamos - Lavallejinos Ilustres</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Gentium+Basic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ================= NAVEGACIÓN ================= -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-landmark"></i> Lavallejinos Ilustres
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-toggle-label">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu" id="mainMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="proyecto.html"><i class="fas fa-book"></i> Proyecto</a></li>
+                <li><a href="ilustres.html"><i class="fas fa-user-tie"></i> Ilustres</a></li>
+                <li><a href="sugerir.html"><i class="fas fa-lightbulb"></i> Sugerir</a></li>
+                <li><a href="creamos.html" class="active"><i class="fas fa-paint-brush"></i> Creamos</a></li>
+                <li><a href="recursos.html"><i class="fas fa-tools"></i> Recursos</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ================= SECCIÓN CREAMOS ================= -->
+    <section id="creamos" class="page-section">
+        <div class="section-cover" style="background-image: url('img/portada1.png');">
+            <div class="section-title-box">
+                <h1>Creamos</h1>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="content-box">
+                <div class="section-title">
+                    <h2>Actividades para trabajar los ilustres</h2>
+                    <p>Participa en la creación de contenido para esta experiencia transmedia. ¡Tu creatividad es bienvenida!</p>
+                </div>
+                
+                <div class="form-container">
+                    <h3>Crear personajes</h3>
+                    <p>Inventa nuevos personajes relacionados con los ilustres de Lavalleja. Describe su personalidad, apariencia y conexión histórica.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="character-name">Nombre del personaje</label>
+                            <input type="text" id="character-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="character-desc">Descripción</label>
+                            <textarea id="character-desc"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="character-related">Relacionado con:</label>
+                            <select id="character-related">
+                                <option value="morosoli">Juan José Morosoli</option>
+                                <option value="fabini">Eduardo Fabini</option>
+                                <option value="lavalleja">Juan A. Lavalleja</option>
+                                <option value="otros">Otro</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                    <div class="crea-info">
+                        <i class="fas fa-info-circle"></i> Recuerda subir una captura de pantalla de tu creación a CREA en el espacio "Actividades transmedia"
+                    </div>
+                </div>
+                
+                <div class="content-box">
+                    <div class="section-title">
+                       <h2>Perico</h2>
+                        <p>Actividades con el libro Perico - Juan José Morosoli</p>
+                    </div>
+                    
+                    <div class="tool-card">
+                         <h3>Contexto histórico</h3>
+                         <p>Investiga cómo era la vida en Lavalleja durante la década de 1930.</p>
+                         <p class="crea-info">
+                             <i class="fas fa-info-circle"></i> Comparte tu investigación en CREA.
+                         </p>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <h4>Análisis literario</h4>
+                        <p>Analiza los temas recurrentes en la obra de Morosoli y su relación con la identidad de Lavalleja.</p>
+                        <p class="crea-info">
+                            <i class="fas fa-info-circle"></i> Comparte tu análisis en CREA.
+                        </p>
+                    </div>
+                    
+                    <div class="tool-card">
+                         <h3>Creación literaria</h3>
+                         <p>Escribe un breve relato inspirado en un día de lluvia en el campo.</p>
+                         <p class="crea-info">
+                             <i class="fas fa-info-circle"></i> Comparte tu relato en CREA.
+                         </p>
+                    </div>
+                    
+                    <div class="tool-card">
+                          <h3>Investigar</h3>
+                          <p>Investiga la importancia de la lluvia para la agricultura en Lavalleja en los años 1900.</p>
+                         <p class="crea-info">
+                             <i class="fas fa-info-circle"></i> Comparte tu investigación en CREA.
+                         </p>
+                    </div>
+                    
+                    <div class="tool-card">
+                          <h3>Conectar</h3>
+                          <p>Escucha el sonido de la lluvia y crea un podcast contando lo que te evoca este sonido</p>
+                         <p class="crea-info">
+                             <i class="fas fa-info-circle"></i> Comparte el enlace de tu podcast en CREA.
+                         </p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PIE DE PÁGINA ================= -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <p>Lavallejinos ilustres - Proyecto cultural y educativo</p>
+            
+            <div class="footer-links">
+                <a href="proyecto.html">Sobre el proyecto</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de uso</a>
+            </div>
+            
+            <p>© 2025 - ED - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
