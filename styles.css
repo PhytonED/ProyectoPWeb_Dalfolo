@@ -77,15 +77,16 @@ h3 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; 
     align-items: center;
     background-image: url('img/portada.png');
     background-size: cover;
     overflow: hidden;
+    padding-top: 120px;
 }
 
 .start-button { 
-    display: inline-block;
+    display: block;
     padding: 12px 12px;
     background: linear-gradient(135deg, #c0a050, #a88c40);
     color: white;
@@ -94,12 +95,13 @@ h3 {
     font-family: 'Gentium Basic', serif;
     font-size: 1.1rem;
     font-weight: 600;
-    margin: 250px 30px 10px;
+    margin: 80px auto 10px; 
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
     z-index: 10;
     box-shadow: 0 4px 10px rgba(192, 160, 80, 0.3);
+    width: fit-content; 
 }
 .start-button:hover {
     background: linear-gradient(135deg, #d4b060, #b89c50);
